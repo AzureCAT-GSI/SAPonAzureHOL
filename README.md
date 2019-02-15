@@ -6,11 +6,11 @@ This is a hands-on-lab to create a windows server, install SAPGui and run some u
 
 Use the azure portal to create a resource group to hold your windows server.
 
-## Create a windows server 2016 
+## Create a windows server 2016 VM 
 
-Create a windows server 2016 virtual machine in your new resource group, allow RDP portaccess, in west us 2 region.
+Create a windows server 2016 virtual machine in your new resource group, allow RDP port access, in west us 2 region.  You can use the defaults for the vnet creation.
 
-## Rdp into the machine
+## RDP into the machine you created
 
 Use the Connect button to download the RDP file for your machine, and connect into it.  Use the credentials you specified when you created the machine:
 
@@ -182,6 +182,11 @@ The **SU01** transaction allows administrators to maintain the users of the syst
 
 ![sapgui4](media/2019-02-12_19-02-58.png)
 
+## Database Maintenance
+
+The **DB02** transaction is for database administration via the SAP GUI:
+
+![sapgui4](media/2019-02-15_11-33-45.png)
 
 
 
